@@ -1,17 +1,19 @@
- .header{
+.header{
         display: grid;
         height: 20vh;    
         text-align: center;
         font-size: x-large;
         background-color:lightgray;
     }
-    .container {
-     display: grid;
-grid-template-columns:700px 750px 1fr 200px;
-grid-template-rows: 1fr 1fr ;
-height: 50vh;
-grid-template-areas: main main main sidebar;
-background-color:lightgray; }
+   .container {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      height: 50vh;
+      grid-template-areas: main main main sidebar;
+      background-color: lightgray;
+    }
+
 
 .main {
     display: grid;
@@ -34,7 +36,7 @@ background-color:lightgreen;
 
 .footer{ 
     display: grid;
-    grid-template-columns: 2px 220px 220px 220px 220px 10px;
+    grid-template-columns: 2px 250px 250px 250px 250px 10px;
     grid-template-rows: 60px 30px;
     grid-gap: 80px;
     background-color:lightgray;
