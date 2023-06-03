@@ -1,0 +1,232 @@
+
+    .container {
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr 1fr 1fr 1fr 1fr 20px;
+    background-color: rgb(12, 6, 54);
+    
+   
+}
+   
+.logo {
+    display: grid;
+    grid-column-start:2;
+grid-column-end: 3;
+   }
+.menu-main  {
+    display: grid;
+    color: beige;
+       background-color: rgb(12, 6, 54);
+         font-family: 'El Messiri', sans-serif;
+
+    text-align: center;
+    font-size: medium;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-start:3;
+    grid-column-end: 6;
+    grid-gap: 10px;  
+   }
+
+
+  
+.maincontainer{
+    display: grid;
+  font-family: 'El Messiri', sans-serif;
+    background-color: rgb(12, 6, 54);
+  grid-template-rows: 30px 1fr 1fr 1fr  30px ;
+    grid-template-columns:60px 1fr 1fr 1fr 1fr 1fr ;
+    height:70vh;
+
+   
+}
+
+.main-picture {
+    display: grid;
+    
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+     grid-column-start:2;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 8;}
+    
+
+.supplier {
+      display: grid;
+      grid-column-start: 7;
+      grid-column-end: 9;
+    background-color: rgb(12, 6, 54);
+     
+}
+
+button {
+    display: grid;
+    text-align: center;
+    height: 50px;
+    color: rgb(187, 187, 191);
+    background-color: darkblue;
+      font-family: 'El Messiri', sans-serif;
+
+}
+
+
+
+.text1{
+
+    display: grid;
+    
+    font-size:xx-large ;
+    text-align: center;
+ 
+    color: rgb(199, 199, 227);
+   grid-column-start:3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    color: azure;
+}
+.text2 
+{
+    display: grid;
+    
+    font-weight: 800;
+    font-size:xx-large ;
+    text-align: center;
+     
+font-family: 'El Messiri', sans-serif;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    color: azure;
+
+}
+
+
+.gallery {
+    display: grid;
+ background-color: rgb(12, 6, 54);
+    grid-template-columns:1fr 20px 1fr 1fr;
+    width: fit-content;
+  
+  }
+    .gallery_1 {
+      display: grid;
+   font-family: 'El Messiri', sans-serif;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
+   
+    object-fit: cover;
+    grid-row-gap: 10px;
+     color: azure;
+}
+.item2{
+
+
+}
+.gallery_2 {
+   display: grid;
+   max-width: 50%;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 6;
+     grid-gap:5px;
+      color: azure;
+      font-family: 'El Messiri', sans-serif;
+}
+.item2 {
+  display: grid;
+  height: 50%;
+  width:70%;
+  font-family: 'El Messiri', sans-serif;
+  object-fit: cover;
+   color: azure;
+}
+.item3{ display: grid;
+  height: 50%;
+  width:70%;
+  font-family: 'El Messiri', sans-serif;
+ color: azure;}
+
+  .item4 {
+  display: grid;
+  height: 50%;
+  width: 70%; 
+  color: azure;}
+  .item5 {
+  display: grid;
+  height: 50%;
+  width:70%;
+ color: azure;}
+  .service{
+    display: grid;
+background-color: rgb(12, 6, 54);
+ 
+  font-family: 'El Messiri', sans-serif;
+
+    grid-template-rows: 1fr 1fr;
+    height: 20vh;
+  }
+  p {
+    display: grid;
+    text-align: center;
+    color: azure;
+    font-size: x-large;
+  }
+
+  
+  
+.information {
+    display: grid;
+  background-color: rgb(12, 6, 54);
+    grid-template-columns: 50px 1fr 1fr 30px;
+    grid-template-rows:1fr 1fr ;
+    height: 600px;
+    grid-gap: 10px
+
+}
+    .block1
+    {
+         grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+     grid-gap:5px;
+      color: azure;
+      font-family: 'El Messiri', sans-serif;
+    }
+    .block2
+    {
+         grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+     grid-gap:5px;
+      color: azure;
+      font-family: 'El Messiri', sans-serif;
+    }
+    .block3 {
+         grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+     grid-gap:5px;
+      color: azure;
+      font-family: 'El Messiri', sans-serif;
+
+    }
+ .block4{ grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+     grid-gap:5px;
+      color: azure;
+      font-family: 'El Messiri', sans-serif;
+   
+ }
